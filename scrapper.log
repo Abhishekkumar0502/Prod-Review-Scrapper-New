@@ -5646,3 +5646,108 @@ INFO:root:log my final result [{'Product': 'samsungs24ultra', 'Name': 'himanshu 
 INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:01:15] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:01:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:01:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 849-928-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 849-928-344
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:07:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:07:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result [{'Product': 'samsungs23fe', 'Name': 'Khaja Nawas', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "I enjoy this mobile since last 6 months. Camera(especially potrait video), display, sound are so good. More than enough for daily activities. The oneUI and AI photo editing are awesome . I don't regret anymore for not buying Google pixel. But a big drawback is battery. When I use both sim as 5g I have to charge twice within 24 hrs. If I use one sim with preferred network as 4g only , then it lasts a day. Even after oneUI 6.1 update it didn't change."}, {'Product': 'samsungs23fe', 'Name': 'KIRANMAI NBV', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Camera quality is very good mobile is also working good \U0001f44d'}]
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:08:02] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'samsungs24', 'Name': 'Kaustubh  Sarkar', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Flipkart is not providing the free wireless duo charger that was free gift for pre booking this device. Terrible service from Flipkart support. Phone rating: 4 starCamera: 4 star. Usage over a minute heats up the device. Battery: 3 star. Can barely go a single day on full charge with about 6h screen on time.Display: 5 starPerformance: 3 star. I see stutters while streaming on Netflix. And recording 60fps video for long durations. Software and AI features: 5 star. Summary and voice to n...'}, {'Product': 'samsungs24', 'Name': 'SUNIL SEN', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Great Flagship smartphone. UI is so smooth and provide very practical AI features. Samsung provide software experience much better than iphone in day to day use. Battery life is also good.'}, {'Product': 'samsungs24', 'Name': 'Aarizoo Majeed', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': "I don't know why this device is underrated. Such an amazing device. Terrific camera, AI, great video recording , and some unique inbuilt features."}, {'Product': 'samsungs24', 'Name': 'Prashant Bhadani', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'This phone is very good and when it comes to performance, I Phone does not come far in front of it,The camera quality is very good and very clear.You have my experienceCamera 5 out of 5Battery 4.5 out of 5Performance 5 out of 5AI 4 out of 5'}, {'Product': 'samsungs24', 'Name': 'Gautam Mohanta', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Awesome product....With Fabulous Galaxy AI....'}, {'Product': 'samsungs24', 'Name': 'KALLOL MONDAL', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "After studying a lot, I finally purchased the S24+. Here is my review after using it for more than one month. I haven't played any games yet, but I have tested the camera in various conditions.The processor and battery were the main highlights.No heating issues even in 8K and 4K video recording. As a content creator I have to record long 4k video of more than 1 hour.Excellent battery backup. Only a 2% battery drain overnight.The camera is awesome. Photos, portrait video, and ultra-stab..."}, {'Product': 'samsungs24', 'Name': 'Vipul Omar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': "Moved from Iphone 14 to S24 Plus after being on iOS for 4 years, must say touch and feel of phone is quite premium. Display is top notch, can't comment on performance right away but found it bit slower to iphone. My iphone used to heat while charging and ocassionally while using, while this one has lesser heating while using and no heating while charging ( i use 20W charger). Battery is still learning the pattern, hopefully shall last one full day atleast. One UI feels exciting with lot of cu..."}, {'Product': 'samsungs24', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'First impressions:1. Design - premium and sturdy. Thin bezels and the frosted glass on the back look amazing. I also loved the flat planes on the side, making it easier to hold even without a case.2. Display - an LTPO quad HD display. Absolutely stunning.3. Battery - so far, I have found the battery lasting around a day even with my heavy usage. I am getting a consistent 6-7 hours of SOT. Charging is on the slower side but not as slow as an iPhone.4. Camera - while I liked the camera over...'}, {'Product': 'samsungs24', 'Name': 'Sam Vikash ', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Excellent mobile for this price,camera quality was top notch like dslr it will be very worth for buy i got 1 day delivery everything is perfect'}, {'Product': 'samsungs24', 'Name': 'Asfak Leli', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Superb....Power of the Galaxy AI'}, {'Product': 'samsungs24', 'Name': 'Asfak Leli', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Superb....Power of the Galaxy AI'}]
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:08:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:09:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:10:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:10:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:10:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:10:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:10:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:11:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:12:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:13:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:14:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:15:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:15:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:16:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:17:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmagic', 'Name': 'Ashwin s', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Nice phone.. Display is fantastic... for gaming the phone is superb...'}, {'Product': 'redmagic', 'Name': 'ankit dhaka', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Awesome phone. Everything is top except camera although camera is sony imx 586 better than others but need gcam or software update from nubia. Pubg is super smooth i used gfx tool hdr +extreme.any question about phone jjst ask me. I post more images later. Thnx'}, {'Product': 'redmagic', 'Name': 'NiKhil JOhn', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Its a Beast.. if you are planing to buy a gaiming phone this is the perfect phone .. disply is awsome .. and the sholder button is OP.. value for money phone, and the battery is extremely powerfull'}, {'Product': 'redmagic', 'Name': 'Aashish Vishwas', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': "*Buy this phone if you're a PUBG addict*Camera is average say 20k phone price range quality*Phone heat's up little but it's normal*Battery is 5000mAh but 90hz screen refresh makes look like a 4000mAh battery phone*Needs SOFTWARE update in every way it can*Touch Triggers are activated all the time needs to be fixed ASAP*Notification bar is cut by rounded corners like the battery bar and time is edged by the screen*Colling phone can be heard but that's no big deal*OS is pretty much Stoc..."}, {'Product': 'redmagic', 'Name': 'Abhishek Singh', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Beast of gaming'}, {'Product': 'redmagic', 'Name': 'Divya parkash', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': "what a beast!it's a gaming phone, so regular people who don't game much might find this device quite a handful. it's a perfect phone, value for money, what more do you want. i accept i was kinda skeptical about the purchase and did watch many review videos and all that crap. it's way more better than those videos show. I've found literally no negative about the phone. display is good, sound is good, camera is better,  performance is top notch and above all, the 5000 mAh battery, omg!... it ..."}, {'Product': 'redmagic', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': "Its not only a phone ....it is a gaming #BEASTPERFECT PHONE UNDER PERFECT PRICEGAMING EXPERIENCE IS.  5*CAMERA IS 5*NO HEATING ISSIUEand spc's are unbelievable .......its just awesome\U0001f618"}, {'Product': 'redmagic', 'Name': 'Karan Sabherwal', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'good phone with a powerful parformance at a great price.games are running at butter smooth.'}, {'Product': 'redmagic', 'Name': 'jinu rbz', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Good seller mobile was reach correct time im satisfied \u2764'}, {'Product': 'redmagic', 'Name': 'Shubhodeep Saha', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': "It's an amazingly fast and powerful device but it lacks a good camera I feel, the camera app itself lacks a lot of stuffs but this device is for gaming and it does thay perfectly. Tho the aluminum back will feel hot while playing high end games, but that's the normal temperature. Don't worry about it heating up, put on a case you won't even feel it anymore. The phone is super slim despite being so big and it feels sorta slippery without any cover."}, {'Product': 'redmagic', 'Name': 'Shubhodeep Saha', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "It's an amazingly fast and powerful device but it lacks a good camera I feel, the camera app itself lacks a lot of stuffs but this device is for gaming and it does thay perfectly. Tho the aluminum back will feel hot while playing high end games, but that's the normal temperature. Don't worry about it heating up, put on a case you won't even feel it anymore. The phone is super slim despite being so big and it feels sorta slippery without any cover."}]
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2025 15:18:00] "POST /review HTTP/1.1" 200 -

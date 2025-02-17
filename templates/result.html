@@ -1,47 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Review Page</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-
-      <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body>
-
-  <div class="table-users">
-   <div class="header">Reviews</div>
-
-   <table cellspacing="0">
-      <tr>
-         <th>Product</th>
-         <th>Name</th>
-         <th>Rating</th>
-         <th>Comment Heading</th>
-         <!-- <th>mycomment </th> -->
-         <th width="230">Comments</th>
-      </tr>
-         {% for review in reviews %}
-      <tr>
-          <td>{{review['Product']}}</td>
-         <td>{{review['Name']}}</td>
-         <td>{{review['Rating']}}</td>
-         <td>{{review['CommentHead']}}</td>
-         <!-- <td>{{review['Comment']}} </td> -->
-         <td>{{review['Comment']}} </td>
-       {% endfor %}
-   </table>
-</div>
-
-
-
+<body class="bg-zinc-900 text-zinc-100 flex justify-center items-center min-h-screen p-6">
+    <div class="w-full max-w-5xl bg-zinc-800 shadow-lg rounded-lg p-6">
+        <h2 class="text-3xl font-semibold text-center text-zinc-200 mb-6">Product Reviews</h2>
+        
+        <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse border border-zinc-700">
+                <thead>
+                    <tr class="bg-zinc-700 text-zinc-300">
+                        <th class="border border-zinc-600 p-3">Product</th>
+                        <th class="border border-zinc-600 p-3">Name</th>
+                        <th class="border border-zinc-600 p-3">Rating</th>
+                        <th class="border border-zinc-600 p-3">Comment Heading</th>
+                        <th class="border border-zinc-600 p-3">Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for review in reviews %}
+                    <tr class="border-b border-zinc-700 hover:bg-zinc-700">
+                        <td class="border border-zinc-600 p-3">{{ review['Product'] }}</td>
+                        <td class="border border-zinc-600 p-3">{{ review['Name'] }}</td>
+                        <td class="border border-zinc-600 p-3">{{ review['Rating'] }}</td>
+                        <td class="border border-zinc-600 p-3">{{ review['CommentHead'] }}</td>
+                        <td class="border border-zinc-600 p-3">{{ review['Comment'] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
-
 </html>

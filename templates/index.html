@@ -1,19 +1,22 @@
 {% extends 'base.html' %}
 
 {% block head %}
-
 <title>Search Page</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 {% endblock %}
 
 {% block body %}
-<div class="content">
-    <h1 style="text-align: center">Search</h1>
+<div class="flex items-center justify-center min-h-screen bg-zinc-900 text-zinc-100">
+    <div class="w-full max-w-xl bg-zinc-800 p-8 rounded-xl shadow-lg text-center">
+        <h1 class="text-3xl font-semibold mb-6">Search for a Product</h1>
 
-    <div class="form">
-        <form action="/review" method="POST">
-            <input type="text" name="content" id="content">
-            <input type="submit" value="Search">
+        <form action="/review" method="POST" class="flex justify-between p-4 w-full space-x-4">
+            <input type="text" name="content" id="content"
+                class="w-full p-3 text-lg bg-zinc-700 border border-zinc-600 rounded-lg focus:ring focus:ring-zinc-500 focus:outline-none"
+                placeholder="Enter product name..." required>
+            <button type="submit"
+                class="w-full p-3 bg-zinc-600 hover:bg-zinc-700 text-white font-semibold rounded-lg transition duration-300">
+                Search
+            </button>
         </form>
     </div>
 </div>
